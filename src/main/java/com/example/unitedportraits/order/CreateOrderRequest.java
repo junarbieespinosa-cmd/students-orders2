@@ -6,6 +6,7 @@ import jakarta.validation.constraints.NotNull;
 import java.math.BigDecimal;
 
 public record CreateOrderRequest(
+        // this is a dto for creating
         @NotNull Long studentId,
         @NotNull @Min(0) BigDecimal total,
         @NotNull String status

@@ -10,6 +10,7 @@ public record StudentDto(
         LocalDateTime creationDateTime
 ) {
     public static StudentDto fromEntity(Student s) {
+        //this is a data transfer object for student
         return new StudentDto(
                 s.getStudentId(),
                 s.getName(),

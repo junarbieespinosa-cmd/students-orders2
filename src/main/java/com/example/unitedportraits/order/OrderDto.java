@@ -11,6 +11,7 @@ public record OrderDto(
         LocalDateTime creationDateTime
 ) {
     public static OrderDto fromEntity(Order o) {
+        //this is a data transfer object for Order
         return new OrderDto(
                 o.getOrderId(),
                 o.getStudent().getStudentId(),
