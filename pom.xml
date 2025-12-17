@@ -58,7 +58,7 @@
     </dependencies>
 
     <build>
-        <finalName>united-portraits-api</finalName>
+        <finalName>students-orders</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
