@@ -32,7 +32,7 @@ jobs:
       - name: Upload JAR artifact
         uses: actions/upload-artifact@v4
         with:
-          name: students-orders-hmm
+          name: students-orders
           path: target/students-orders.jar
 
 
